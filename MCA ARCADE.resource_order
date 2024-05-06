@@ -17,6 +17,6 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
-    {"name":"Room2","order":1,"path":"rooms/Room2/Room2.yy",},
+    {"name":"rReverseFrogger","order":1,"path":"rooms/rReverseFrogger/rReverseFrogger.yy",},
   ],
 }
