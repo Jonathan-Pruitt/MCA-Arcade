@@ -1,3 +1,4 @@
+// CHECK KEYBOARD PRESSES TO DETERMINE MOVEMENT
 if (keyboard_check_pressed(vk_up) || keyboard_check_pressed(ord("W"))) {
 	y -= 50;	
 	image_angle = 90;

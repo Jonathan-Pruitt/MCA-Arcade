@@ -20,5 +20,6 @@
     {"name":"obj_rf_Frogger","order":1,"path":"objects/obj_rf_Frogger/obj_rf_Frogger.yy",},
     {"name":"rReverseFrogger","order":1,"path":"rooms/rReverseFrogger/rReverseFrogger.yy",},
     {"name":"spr_rf_Frogger","order":1,"path":"sprites/spr_rf_Frogger/spr_rf_Frogger.yy",},
+    {"name":"spr_rf_Cars","order":2,"path":"sprites/spr_rf_Cars/spr_rf_Cars.yy",},
   ],
 }
