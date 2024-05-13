@@ -29,6 +29,20 @@ if (timer == 0) {
 	2 -- JUMP LEFT
 	3 -- JUMP RIGHT
 	*/
+	
+	var _xPos = [0	, 0	, -25, 25]
+	var _yPos = [-25, 25, 0,   0]
+	
+	var _move = moveOptions[_dir];
+	var collisionDetected = CollisionCheck(_xPos[_move] + x, _yPos[_move] + y);
+	
+	while (collisionDetected) {
+		_dir = irandom(array_length(moveOptions) - 1);
+		_move = moveOptions[_dir];
+		collisionDetected = CollisionCheck(_xPos[_move] + x, _yPos[_move] + y);
+	}//end while
+	
+	
 	if (moveOptions[_dir] == 0) {
 		y -= 25;	
 		image_angle = 90;
