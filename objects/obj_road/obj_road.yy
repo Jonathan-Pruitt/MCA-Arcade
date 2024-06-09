@@ -1,9 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_oob",
-  "eventList":[],
+  "%Name":"obj_road",
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_oob",
+  "name":"obj_road",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,9 +31,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_oob",
-    "path":"sprites/spr_oob/spr_oob.yy",
+    "name":"spr_road",
+    "path":"sprites/spr_road/spr_road.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }
